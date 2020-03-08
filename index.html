@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Bamboo Blog - {{ page.title }}</title>
+  
+  <link href="/stylesheets/main.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="http://gist.github.com/stylesheets/gist/embed.css"/>
+  
+  <script src="/javascripts/code_highlighter.js" type="text/javascript"></script>
+  <script src="/javascripts/javascript.js" type="text/javascript"></script>
+  <script src="/javascripts/ruby.js" type="text/javascript"></script>
+  
+  <link href="http://feeds.feedburner.com/newbamboo" rel="alternate" title="Blog Posts" type="application/atom+xml" />
+</head>
+<body>
+
+  <div id="wrap">
+    <div id="header">
+	  <div id="headinside" class="clearfix">
+        <h1><a href="http://new-bamboo.co.uk"><img src="/images/logo.gif" alt="New Bamboo" /></a></h1>
+        <p>This is the <a href="/">Bamboo Blog</a>. Here, the passionate team at <a href="http://new-bamboo.co.uk">New Bamboo</a> discuss startups, Ruby on Rails, Merb, product development and random business.</p>
+      </div>
+    </div>
+	
+    <p><a href="http://feeds.feedburner.com/newbamboo" id="rss_link">Latest from the Bamboo Blog</a></p>
+    
+    <div id="content">
+      {{ content }}
+    </div>
+
+    <div id="sidebar">
+      <div class="sidebar_item">
+        <h2>Subscribe</h2>
+        <p><a href="http://feeds.feedburner.com/newbamboo"><img src="http://feeds.feedburner.com/~fc/newbamboo?bg=99CCFF&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a></p>
+      </div>
+
+      <div class="sidebar_item search">
+          <h2>Search</h2>
+          <form method="get" action="http://www.google.com/search">
+            <input type="text" name="q" maxlength="255" size="22" />
+            <input type="hidden" name="domains" value="blog.new-bamboo.co.uk" />
+            <input style="visibility:hidden" type="radio" name="sitesearch" value="blog.new-bamboo.co.uk" checked="checked" />
+          </form>
+  	  </div>
+
+      <div class="sidebar_item">
+        <div id="dsq-recentcomments" class="dsq-widget"><h2 class="dsq-widget-title">Recent Comments</h2><script type="text/javascript" src="http://disqus.com/forums/newbambblog/recent_comments_widget.js?num_items=3&avatar_size=24"></script></div>
+      </div>
+    </div> <!-- end sidebar -->
+
+    <div id="footer">Written by the super chaps at <a href="http://new-bamboo.co.uk/">New Bamboo</a></div>
+  </div>
+
+  <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+  console.log('Grzegorz Bilinski');
+  </script>
+</body>
+</html>
