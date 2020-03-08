@@ -1,2 +1,0 @@
-console.log("I'm Gregory B.");
-dodaje coś;
